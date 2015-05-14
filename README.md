@@ -10,7 +10,8 @@ Kaggle competition on search result relevant, see more [here](https://www.kaggle
 - Pandas
 - BeautifulSoup
 - unidecode
-
+- gensim
+- nltk
 
 ## Improvement
 
@@ -23,7 +24,7 @@ Improvement can be added in issue. We should submit carefully and report if we g
 - We should add more vector columns to improve the result e.g. distance between search text and result text. We will have e.g. distance column but we should normailize it somehow.
 - The 2 columns that I added is not linearly separable: 00, 01, 10, 11 we can think of column feature to make it separable 
 - We will discuss more over the weekend
-
+- Alternatives to (tfidf + Linear Classifier)
 
 ### Team Members
 
